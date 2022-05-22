@@ -4,7 +4,7 @@
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
   --light: #ffffff;
-  --dark: #f58d0e;
+  --dark: #9a9a9a;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
@@ -31,7 +31,7 @@ body {
   line-height: 1.5;
   font-size: 20px;
   color: var(--dark);
-  background-color: #505050e1;
+  background-color: #f58d0e;
 }
 
 h1,
@@ -44,6 +44,7 @@ h6 {
   font-weight: 700;
   margin: 5px 0;
   line-height: 1.25;
+  color: #f58d0e;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  color: #ffffff;
 }
 
 h4 {
