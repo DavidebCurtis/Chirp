@@ -28,7 +28,10 @@ const SingleThought = (props) => {
         </p>
         <div className='card-body'>
           <p>{thought.thoughtText}</p>
-          <p className='mb-0'>Reactions: {thought.reactionCount}</p>
+          <p className='mb-0'>
+            <strong style={{ color: '#f58d0e' }}>Reactions:</strong>{' '}
+            {thought.reactionCount}
+          </p>
         </div>
       </div>
 
